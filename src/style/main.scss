@@ -9,6 +9,14 @@
   text-align: center;
 }
 
+.gray {
+  background: #b3b3b3;
+}
+
+.green {
+  background: #00cb79;
+}
+
 .home {
   position: relative;
 
@@ -117,10 +125,25 @@
     justify-self: center;
     margin-bottom: 84px;
 
+    font-family: "Monteserrat";
+
+    &__label {
+      height: 23px;
+      width: 23px;
+      line-height: 22px;
+      background-color: black;
+      border-radius: 50%;
+      font-size: 14px;
+      text-align: center;
+      color: white;
+      // padding-top: 3px;
+      display: inline-block;
+      margin: 4px;
+    }
+
     p {
       line-height: 29px;
       padding: 50px 47px;
-      font-family: "Monteserrat";
       font-size: 16px;
       font-weight: 300;
     }
@@ -167,7 +190,6 @@
   &__number {
     grid-column: number-s/number-e;
 
-    background-color: #00cb79;
     color: white;
     font-size: 20px;
 
